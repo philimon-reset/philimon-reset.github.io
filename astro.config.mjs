@@ -6,6 +6,6 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
   site: "https://philimon-reset.github.io",
-  base: "/philimon.github.io",
+  base: "/src",
   integrations: [mdx(), sitemap(), tailwind()],
 });
