@@ -7,5 +7,11 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
   site: "https://philimon-reset.github.io",
   base: "/",
-  integrations: [mdx(), sitemap(), tailwind()],
+  integrations: [
+    mdx(),
+    sitemap(),
+    tailwind({
+      applyBaseStyles: false,
+    }),
+  ],
 });
