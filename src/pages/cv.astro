@@ -9,13 +9,15 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <div class="mb-10 text-justify">
-    My name is Philimon Ayalew, and I am a Computer Science student at
-    Constructor University. I am a highly motivated individual with a passion
-    for researching and working with new, complex technologies. I constantly
-    strive for continuous learning and career growth. As an experienced
-    full-stack engineer, I have worked with numerous web technologies, and I am
-    currently delving into the field of graphics programming, where I am
-    exploring the wonders of computer graphics.
+    <text class="text-lg">
+      My name is Philimon Ayalew, and I am a Computer Science student at
+      Constructor University. I am a highly motivated individual with a passion
+      for researching and working with new, complex technologies. I constantly
+      strive for continuous learning and career growth. As an experienced
+      full-stack engineer, I have worked with numerous web technologies, and I
+      am currently delving into the field of graphics programming, where I am
+      exploring the wonders of computer graphics.
+    </text>
   </div>
 
   <div class="mb-5">
@@ -130,17 +132,23 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <div class="text-3xl w-full font-bold">Certifications</div>
   </div>
 
-  <div class="flex gap-4 mb-5">
-    <div class="mt-8">
-      <a class="btn" href="/Top100.pdf" target="_blank"
-        >2024 Google Solution Challenge Top 100 Finalist</a
-      >
-    </div>
-    <div class="mt-8">
-      <a class="btn" href="/core.pdf" target="_blank">
-        Google Developer Student Club Core Team Member</a
-      >
-    </div>
+  <div class="flex gap-4 mb-5 flex-wrap flex-col">
+    <a class="btn btn-primary basis-1/2 mt-6" href="/Top100.pdf" target="_blank"
+      >2024 Google Solution Challenge Top 100 Finalist</a
+    >
+    <a class="btn btn-primary basis-1/2" href="/core.pdf" target="_blank">
+      Google Developer Student Club Techincal Lead</a
+    >
+    <a class="btn btn-primary basis-1/2" href="/alx.pdf" target="_blank">
+      ALX/Holberton Certification</a
+    >
+    <a
+      class="btn btn-primary basis-1/2"
+      href="/Philimon_Ayalew_Resume.pdf"
+      target="_blank"
+    >
+      Resume!</a
+    >
   </div>
 
   <div class="mb-5">
